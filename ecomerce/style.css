@@ -1,0 +1,85 @@
+.menu{
+    display: inline;
+    align-items: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    padding: 7px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: whitesmoke;
+    border-radius: 90px;
+
+}
+
+.seccion-categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.Categorias{
+        width: 200px;
+        text-align: center;
+        border: 1px solid black; 
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Categorias:hover{
+    background-color: gray;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.productos{
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    padding: 10px;
+    display: flex;
+    background-color:rgb(188, 187, 187);
+}
